@@ -1,0 +1,39 @@
+.discover-main-section{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.discover-main-section .covers-image{
+    width:25vw;
+    margin-left: 2rem;
+    height: 25vw;
+    max-width: 350px;
+}
+.icon-section{
+    display: flex;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem;
+    padding: .75rem;
+    width: 200px;
+    height: 200px;
+    background-color: #BFC1DD;
+}
+
+@media(max-width:800px){
+    .discover-main-section{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .discover-main-section .covers-image{
+        margin-top: 2rem;
+        height: 30vh;
+        width: auto;
+    }
+}
