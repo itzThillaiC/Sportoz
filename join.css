@@ -3,6 +3,9 @@
     justify-content: space-between;
     align-items: center;
     flex-grow: 1;
+    padding: .1rem 8rem;
+    margin-bottom: 20%;
+    
 
 }
 
@@ -15,3 +18,54 @@
 .accent-text{
     color: #B74186;
 }
+
+.join-form{
+    background-color:#BFC1DD ;
+    width: 40vw;
+    max-width: 50%;
+    padding: 2rem 4rem;
+    border-radius: 20px;
+}
+
+.input-group{
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group:last-child{
+    margin-bottom: 0;
+}
+
+.input-group label{
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+
+.input-group input{
+    outline: none;
+    background:none ;
+    border: 1px solid rgb(95, 93, 93);
+    font-size: 1em;
+    padding: .5em;
+    color: inherit;
+    border-radius: 5px;
+}
+
+.input-group input:focus{
+    border-color: #B74186;
+}
+
+@media(max-width:900px){
+    .join-main-section{
+      flex-direction: column;
+      justify-content: center;  
+    }
+    .join-form{
+        width:80vw;
+        max-width:inherit ;
+        margin: 2rem 0;
+    }
+}
+
+
