@@ -41,3 +41,27 @@
     }
 }
 
+
+.home-page-circ-1{
+    position: absolute;
+    width:13vw;
+    height: 13vw;
+    border-radius: 50%;
+    background-color:#D7CCDF ;
+    bottom: 3vw;
+    left: 8vw;
+    z-index: -1;
+}
+
+.home-page-circ-2{
+    position: absolute;
+    width:17vw;
+    height: 17vw;
+    border-radius: 50%;
+    background-color:#D1D3E5 ;
+    top: 6vw;
+    left: 35vw;
+    z-index: -1;
+}
+
+
