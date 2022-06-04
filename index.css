@@ -23,3 +23,21 @@
     background-repeat: no-repeat;
     background-position: bottom left;
 }
+
+.home-main-section .call-to-action{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1rem;
+    align-self: center;
+}
+
+@media(max-width:900px){
+    .home-main-section .image-wrapper{
+        display: none;
+    }
+    .home-main-section{
+        justify-content: center;
+    }
+}
+
