@@ -103,4 +103,7 @@ body{
     border-radius: .60rem;
     text-decoration: none;
     font-size: 1.15rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
 }
