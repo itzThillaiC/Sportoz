@@ -54,4 +54,13 @@
 }
 
 
-
+.home-page-circ-2{
+    position: absolute;
+    width:17vw;
+    height: 17vw;
+    border-radius: 50%;
+    background-color:#D1D3E5 ;
+    top: 6vw;
+    left: 35vw;
+    z-index: -1;
+}
