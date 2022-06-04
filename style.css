@@ -62,3 +62,23 @@ body{
     padding: 0 40px;
 }
 
+.title{
+    font-weight:500;
+    font-size: 3em;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+.subtitle{
+    font-weight:500;
+    font-size: 1.2em;
+    margin-bottom: 2rem;
+}
+
+.btn{
+    color:black ;
+    background-color:#8281BF ;
+    padding:.75rem 3rem ;
+    border-radius: .60rem;
+    text-decoration: none;
+    font-size: 1.15rem;
+}
